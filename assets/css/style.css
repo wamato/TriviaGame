@@ -1,0 +1,204 @@
+/* Background styling */
+
+body {
+    background-image: url("../images/BikiniBottomHD.jpg");
+    background-size: 100vw;
+    background-repeat: no-repeat;
+
+}
+    /* game container */
+.container {
+    /* display: none; */
+}
+
+/* Main row containing questions and picture */
+
+.question-image {
+    /* border: 5px solid black; */
+    height: 40vh;
+    padding: 10px;
+    
+}
+
+/* quesitons go here */
+
+.questions {
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 100%;
+    width: 48%;
+    margin-left: 10px;
+    margin-top: 2px; 
+    background-color: lightgoldenrodyellow;
+}
+
+/* pictures go here */
+
+.images {
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 100%;
+    width: 48%;
+    float: right;
+   margin-right: 10px;
+   margin-top: 2px;
+}  
+
+/* answer choices */
+
+.answer-choices {
+    /* display: flex; */
+    /* flex-direction: column; */
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 25px;
+    background-color: peachpuff;
+    text-align: center;
+}
+
+/* answer choices */
+
+.choice {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 98%;
+    margin: 10px;
+    text-align: center;
+}
+
+/* class containing all answer lines */
+
+.answer-choice-col{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    height: 100%;
+}
+
+/* answer text styling */
+
+.answer-text {
+    font-size: 25px;
+    font-weight: bold;
+    padding-right: 50px;
+}
+
+/* buttons to choose your answer */
+
+.answer-button {
+    float: right;
+    width: 100%;
+    border: 1px outset black;
+}
+
+/* this screen displays if the answer is wrong */
+
+.show-answer {
+    border: 10px solid maroon;
+    background-color: indianred;
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    height: 50%;
+    width: 50%;
+    z-index: 100;
+    text-align: center;
+    display: none;
+}
+#correct-answer {
+    /* border: 1px solid black; */
+    height: 60%;
+    margin: 35px;
+}
+#correct-answer-display{
+    padding-top: 12%;
+}
+
+/* This screen displays if the answer is right */
+
+.show-congrats {
+    border: 10px solid green;
+    background-color: limegreen;
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    height: 50%;
+    width: 50%;
+    z-index: 100;
+    text-align: center;
+    display: none;
+}
+#display-congrats {
+    /* border: 1px solid black; */
+    height: 60%;
+    margin: 35px;
+}
+#display-congrats-screen{
+    padding-top: 12%;
+}
+
+
+/* game starting button */
+#start-button {
+    border: 2px solid darkgreen;
+    display: none;
+    z-index: 110;
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    font-size: 60px;
+}
+
+/* timer div */
+
+#timer-display {
+    border: 1px solid black;
+    margin: 150px;
+}
+
+/* this is displays if the timer runs out without an answer being chosen  */
+
+.times-up {
+    border: 10px solid black;
+    background-color: yellow;
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    height: 50%;
+    width: 50%;
+    z-index: 130;
+    text-align: center;
+    display: none;
+}
+
+#display-times-up {
+    height: 60%;
+    margin: 35px;
+}
+
+#display-timesUP-screen {
+    padding-top: 12%;
+}
+
+/* displays end game div */
+
+.game-over {
+    border: 10px solid black;
+    background-color: lightblue;
+    position: absolute;
+    top: 5%;
+    left: 12.5vw;
+    height: 75vh;
+    width: 75vw;
+    z-index: 140;
+    text-align: center;
+    display: none;
+}
+
+/* #display-gameOver { */
+
+/* } */
+
+/* #display-gameOver-screen { */
+    
+/* } */
